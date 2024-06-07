@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: #edb5bf;
+    border-radius: 5px;
+}
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    font-weight: bold;
+    float: right;
+    list-style: none;
+    margin: 13px 20px;
+    font-style: bold;
+}
+
+.navbar li a{
+    padding: auto;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: blue;
+}
+.logo{
+    float: left;
+}
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+}
+.hero-section{
+    background-image: url(banner.png);
+    min-height: 100vh;
+    background-position: cover;
+    background-size:1300px 665px;
+    background-repeat: no-repeat;
+    margin: 5px 5px 1px 2px;
+}
+.text-container{
+    color: orange;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 60px;
+}
+.lg_text1{
+    font-size: 72px;
+    font-weight: 4px;
+}
+.lg_text{
+    color: white;
+    font-size: 50px;
+    font-weight: 3px;
+}
+.green_box{
+    background-color: #4d6d9a;
+    padding: 20px;
+}
+.green_box h2{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-weight:4;
+
+}
+.hello :hover{
+    color: yellow
+
+}
+.green_box h3{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-weight: 2;
+}
+.work{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1200px;
+    margin: 50px 50px 50px 50px;
+}
+.button1{
+    background-color: rgb(6, 1, 77);
+    border: none;
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    transition: 0.2 ease-in-out;
+}
+.card :hover{
+    transform: scale(1.04);
+    transition: 0.2 ease-in-out;
+}
+/* .image_container{
+    border: 1px solid brown;
+} */
+.card_content{
+    padding: 10px;
+
+}
+.card_content h3{
+    margin-bottom: 5px;
+}
+.buttom_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.image{
+    background-color: rgb(164, 213, 219)
+}
+.image :hover{
+    transform: scale(1.04);
+    transition: 0.2 ease;
+}
+.contact{
+    background-color: rgb(164, 213, 219);
+}
+/* .about{
+    background-color: rgb(200, 255, 0);
+} */
+.contact{
+    min-height: 230px;
+    padding: 30px;
+    color: rgb(3, 2, 17);
+}
+.contact h2, .about h2{
+    font-size: 60px;
+    font-weight: 200;
+}
+.contact p, .about p{
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+    background-color: transparent;
+    font-weight: 75;
+}
+a:visited {
+    color: rgb(254, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 75;
+}
+.container {
+    max-width: 800px;
+    margin: 5px 250px 10px 250px;
+    background: #9de7bc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.footerContainer{
+    width: 100%;
+    height: 100PX;
+    background: rgb(1, 2, 46);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin: 5px 5px 1px 2px;
+    
+}
+.socialicons{
+    font-size: 30px;
+    margin-left: 600px;
+   
+}
+.socialicons:hover{
+    border: 1px solid yellow;
+    transform: scale(1.04);
+    transition: 0.2 ease-in-out;
+}
+#last{
+    color: white;
+    margin-top: 2px;
+}
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-item {
+        width: 100%;
+    }
+}
+
+/* Media queries are used to adjust the width of portfolio items at different screen sizes. For screens smaller than 768px, each portfolio item takes up 50% of the width, and for screens smaller than 480px, each item takes up 100% of the width, making them stack vertically. */
