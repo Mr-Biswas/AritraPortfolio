@@ -154,13 +154,13 @@ a:link {
     text-decoration: none;
     color: rgb(254, 255, 255);
     background-color: transparent;
-    font-weight: 100;
+    font-weight: bold;
 }
 a:visited {
     color: rgb(254, 255, 255);
     background-color: transparent;
     text-decoration: none;
-    font-weight: 100;
+    font-weight: bold;
 }
 .container {
     max-width: 800px;
